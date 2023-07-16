@@ -1,29 +1,17 @@
 package constants;
-
-/**
- * 画面の項目値等を定義するEnumクラス
- *
- */
 public enum AttributeConst {
 
-    //フラッシュメッセージ
     FLUSH("flush"),
 
-    //一覧画面共通
     MAX_ROW("maxRow"),
     PAGE("page"),
 
-    //入力フォーム共通
     TOKEN("_token"),
     ERR("errors"),
 
-    //ログイン中の従業員
     LOGIN_EMP("login_employee"),
-
-    //ログイン画面
     LOGIN_ERR("loginError"),
 
-    //従業員管理
     EMPLOYEE("employee"),
     EMPLOYEES("employees"),
     EMP_COUNT("employees_count"),
